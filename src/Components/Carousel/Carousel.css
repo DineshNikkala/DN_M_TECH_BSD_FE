@@ -1,0 +1,43 @@
+.carousel-root {
+    object-fit: cover;
+    overflow: hidden;
+    object-fit: cover;
+}
+
+.carousel-wrapper {
+    width: 100%;
+    height: 100%;
+}
+
+.no-images-message {
+    text-align: center;
+    font-size: 18px;
+    color: #666;
+    padding: 20px;
+}
+
+.carousel-wrapper {
+    width: 90%;
+    max-width: 800px;
+    height: 500px;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+}
+
+.carousel-container .slide img {
+    width: 100%;
+    /* Make sure images fill the container */
+    height: 100%;
+    /* Ensure images cover the container height */
+    object-fit: cover;
+    /* Ensure images cover the container without distortion */
+}
+
+.no-images-message {
+    text-align: center;
+    font-size: 18px;
+    color: #666;
+    padding: 20px;
+    line-height: 1.5;
+}

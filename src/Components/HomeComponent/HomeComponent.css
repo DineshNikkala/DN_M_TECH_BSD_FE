@@ -1,0 +1,110 @@
+.container {
+    width: 80vw;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: red;    */
+}
+
+
+.center {
+    /* background-color: yellow; */
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 80%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title {
+    /* background-color: whitesmoke; */
+    width: 100%;
+    text-align: center;
+}
+
+.video_box {
+    width: 100%;
+    /* height: 100%; */
+    object-fit: cover;
+}
+
+p {
+    font-family: 'Poppins';
+    /* font-family: 'Roboto', sans-serif;  */
+    font-size: 4rem;
+    /* Large font size */
+    font-weight: 500;
+    /* Bold text */
+    /* color: #ffffff; */
+    color: #e0e0e0;
+    /* White text color */
+    text-align: center;
+    /* Center the text */
+    margin: 0;
+    padding: 20px 0;
+    /* background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%);  */
+    /* Gradient background */
+    /* border-radius: 15px;  */
+    /* Rounded corners */
+    /* box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); Subtle shadow for depth */
+    text-transform: uppercase;
+    /* Uppercase text */
+    letter-spacing: 10px;
+    /* Spacing between letters */
+}
+
+.upload-button {
+    background: rgba(255, 255, 255, 0.3);
+    /* Initial frosted glass effect */
+    border: 2px dashed rgba(106, 17, 203, 0.5);
+    /* Dotted border with transparency */
+    border-radius: 10px;
+    padding: 20px 40px;
+    text-align: center;
+    cursor: pointer;
+    color: #6a11cb;
+    font-size: 18px;
+    font-weight: bold;
+    transition: all 0.4s ease;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px);
+    /* Glass effect */
+    width: 40%;
+    color: #e0e0e0;
+}
+
+.upload-button:hover {
+    background: rgba(200, 200, 200, 0.5);
+    /* Grayish tone on hover */
+    border: 2px dashed rgba(106, 17, 203, 0.8);
+    /* More visible border on hover */
+    color: rgba(106, 17, 203, 0.9);
+    /* Darker text color on hover */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    /* Enhanced shadow on hover */
+    backdrop-filter: blur(15px);
+    /* Increase blur on hover */
+}
+
+.upload-button input[type="file"] {
+    display: none;
+    /* Hide the default file input */
+    text-transform: uppercase;
+    /* Uppercase text */
+    letter-spacing: 2px;
+    /* Spacing between letters */
+}
+
+.rollno {
+    color: #ffffff;
+    /* White text color */
+    font-family: 'Poppins';
+    text-align: center;
+    /* Center the text */
+    margin: 0;
+    letter-spacing: 1rem;
+    font-weight: bold;
+    font-size: 30pt;
+}
